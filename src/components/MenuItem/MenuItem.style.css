@@ -1,0 +1,10 @@
+.menu-item
+{
+    display:flex;
+    height: 250px;
+    border:solid 1px black;
+    width:400px;
+    margin:10px;
+    justify-content: center;
+    align-items:center;
+}
