@@ -7,4 +7,14 @@
     margin:10px;
     justify-content: center;
     align-items:center;
+    background-position: center;
+    background-size: cover;
+}
+.content
+{
+    background-color:white;
+    text-transform: uppercase;
+    color: #4a4a4a;
+    width:150px;
+    text-align: center;
 }

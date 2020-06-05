@@ -2,16 +2,12 @@ import React from "react";
 import MenuItem from "../MenuItem/MenuItem.component";
 
 import "./Menu.style.css";
-const Menu = () => {
-return (
-    <div className="menu-directory">
-        <MenuItem title="Baked Foods"/>
-        <MenuItem title="Cup Cakes"/>
-        <MenuItem title="Cookies"/>
-        <MenuItem title="Brownie"/>
-        <MenuItem title="Cakes"/>
-    </div>
-)
+const Menu = ({ items }) => {
+    return (
+        <div className="menu-directory">
+            {items.map(item => <MenuItem title={item.title} key={item.id} imageUrl={item.imageUrl}/>)}
+        </div>
+    )
 };
 
 export default Menu;
