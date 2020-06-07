@@ -24,12 +24,14 @@ class HomePage extends React.Component {
                 {
                     id: 4,
                     title: 'Brownie',
-                    imageUrl: 'https://tinyurl.com/y7ardlqo'
+                    imageUrl: 'https://tinyurl.com/y7ardlqo',
+                    size:'large'
                 },
                 {
                     id: 5,
                     title: 'Cup Cakes',
-                    imageUrl: 'https://tinyurl.com/y9gn4f8l'
+                    imageUrl: 'https://tinyurl.com/y9gn4f8l',
+                    size:'large'
                 }
             ]
         }

@@ -5,7 +5,7 @@ import "./Menu.style.css";
 const Menu = ({ items }) => {
     return (
         <div className="menu-directory">
-            {items.map(item => <MenuItem title={item.title} key={item.id} imageUrl={item.imageUrl}/>)}
+            {items.map(item => <MenuItem title={item.title} key={item.id} imageUrl={item.imageUrl} size={item.size}/>)}
         </div>
     )
 };

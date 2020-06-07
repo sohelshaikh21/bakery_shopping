@@ -1,12 +1,14 @@
 import React from "react";
 import "./MenuItem.style.css";
-const MenuItem = ({title, imageUrl}) => {
+const MenuItem = ({ title, imageUrl, size }) => {
     return (
-        <div className="menu-item" style={
+
+        <div style={
             {
-                backgroundImage:`url(${imageUrl})`
+                backgroundImage: `url(${imageUrl})`
             }
-        }>
+        } className={`${size} menu-item`}>
+
             <div className="content">
                 <h2>{title}</h2>
                 <span>Shop Now</span>
