@@ -12,3 +12,14 @@
 {
     background-color:#1a73e8;
 }
+.warning
+{
+    background-color: rgb(200,100,100);
+}
+.custom-button:hover
+{
+    background-color:#414141;
+    color:white;
+    border:1px solid black;
+    cursor:pointer;
+}
