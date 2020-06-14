@@ -11,11 +11,10 @@
     font-size: 18px;
     padding: 10px 10px 10px 5px;
     display: block;
-    width: 100%;
+    width: 97%;
     border: none;
     border-radius: 0;
-    border-bottom: 1px solid gray;    
-    margin: 25px 0;
+    border-bottom: 1px solid gray;
 }
 .form-input:focus
 {

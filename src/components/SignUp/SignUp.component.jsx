@@ -45,8 +45,10 @@ class SignUp extends React.Component {
                         label="Confirm Password"
                         type="password"
                         required="required" />
-                    <CustomButton type="submit">Sign Up</CustomButton>
-                    <CustomButton handleClick={this.onResetClick} type="reset" warning>RESET</CustomButton>
+                    <div className="button-container">
+                        <CustomButton type="submit">Sign Up</CustomButton>
+                        <CustomButton handleClick={this.onResetClick} type="reset" warning>RESET</CustomButton>
+                    </div>
                 </form>
             </div>
         )
