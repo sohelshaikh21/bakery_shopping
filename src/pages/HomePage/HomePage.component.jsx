@@ -9,29 +9,34 @@ class HomePage extends React.Component {
                 {
                     id: 1,
                     title: 'Baked',
-                    imageUrl: 'https://tinyurl.com/y9oxkopq'
+                    imageUrl: 'https://tinyurl.com/y9oxkopq',
+                    linkUrl:'baked'
                 },
                 {
                     id: 2,
                     title: 'Cakes',
-                    imageUrl: 'https://tinyurl.com/yblo7ens'
+                    imageUrl: 'https://tinyurl.com/yblo7ens',
+                    linkUrl:'cakes'
                 },
                 {
                     id: 3,
                     title: 'Cookies',
-                    imageUrl: 'https://tinyurl.com/y8wtdqkx'
+                    imageUrl: 'https://tinyurl.com/y8wtdqkx',
+                    linkUrl:'cookies'
                 },
                 {
                     id: 4,
                     title: 'Brownie',
                     imageUrl: 'https://tinyurl.com/y7ardlqo',
-                    size:'large'
+                    size:'large',
+                    linkUrl:'brownie'
                 },
                 {
                     id: 5,
                     title: 'Cup Cakes',
                     imageUrl: 'https://tinyurl.com/y9gn4f8l',
-                    size:'large'
+                    size:'large',
+                    linkUrl:'cupcakes'
                 }
             ]
         }

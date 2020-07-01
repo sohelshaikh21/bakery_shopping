@@ -6,6 +6,11 @@ import ShopPage from "./pages/ShopPage/ShopPage.component";
 import AccountPage from "./pages/AccountPage/AccountPage.component";
 import "./App.style.css";
 
+const BakedPage = () => {
+    return <div>
+        <h2>Baked Page</h2>
+    </div>
+}
 const App = () => {
     return (
         <div className="App">
@@ -13,6 +18,7 @@ const App = () => {
                 <Header />
                 <Switch>
                     <Route path="/" component={HomePage} exact={true} />
+                    <Route path="/baked" component={BakedPage} />
                     <Route path="/shop" component={ShopPage} />
                     <Route path="/account" component={AccountPage} />
                 </Switch>
