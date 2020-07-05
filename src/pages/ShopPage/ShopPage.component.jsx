@@ -1,4 +1,5 @@
 import React from "react";
+import ShopCollection from "../../components/ShopCollection/ShopCollection.components";
 import COLLECTION_DATA from "./collection.data";
 
 class ShopPage extends React.Component {
@@ -14,15 +15,8 @@ class ShopPage extends React.Component {
         return (
             <div>
                 {
-                    collections.map(collection =>
-                        <div key={collection.id}>
-                            <h2>{collection.title}</h2>
-                            
-                                {
-                                    collection.items.map(item => <p key={item.id}>{item.name}</p>)
-                                }
-                            
-                        </div>
+                    collections.map(({id, title, items}) =>
+                        <ShopCollection key={id} title={title} items={items}/>
                     )
                 }
                 <h1>Icons made by <a href="https://www.flaticon.com/authors/freepik" title="Freepik">Freepik</a> from <a href="https://www.flaticon.com/" title="Flaticon"> www.flaticon.com</a></h1>
